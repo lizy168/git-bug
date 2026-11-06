@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781601916238,
-  "repoUrl": "https://github.com/git-bug/git-bug",
+  "lastUpdate": 1793975103740,
+  "repoUrl": "https://github.com/lizy168/git-bug",
   "entries": {
     "Benchmark": [
       {
@@ -19108,6 +19108,102 @@ window.BENCHMARK_DATA = {
             "value": 472811,
             "unit": "allocs/op",
             "extra": "3 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "180875538@qq.com",
+            "name": "lizy168",
+            "username": "lizy168"
+          },
+          "committer": {
+            "email": "180875538@qq.com",
+            "name": "lizy168",
+            "username": "lizy168"
+          },
+          "distinct": true,
+          "id": "7674136c2f9b4d450fa1c9fc75677ce529bd854d",
+          "message": "[bfp-replay] 1be5b3ca1165 buggy",
+          "timestamp": "2026-11-06T22:23:30+08:00",
+          "tree_id": "e9016c1e62ee4cd8a54f6a87da60d4ce0cfdf3f4",
+          "url": "https://github.com/lizy168/git-bug/commit/7674136c2f9b4d450fa1c9fc75677ce529bd854d"
+        },
+        "date": 1793975102513,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkReadBugs5",
+            "value": 23292028,
+            "unit": "ns/op\t  910979 B/op\t   13961 allocs/op",
+            "extra": "52 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkReadBugs5 - ns/op",
+            "value": 23292028,
+            "unit": "ns/op",
+            "extra": "52 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkReadBugs5 - B/op",
+            "value": 910979,
+            "unit": "B/op",
+            "extra": "52 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkReadBugs5 - allocs/op",
+            "value": 13961,
+            "unit": "allocs/op",
+            "extra": "52 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkReadBugs25",
+            "value": 111492601,
+            "unit": "ns/op\t 5450831 B/op\t   78566 allocs/op",
+            "extra": "10 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkReadBugs25 - ns/op",
+            "value": 111492601,
+            "unit": "ns/op",
+            "extra": "10 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkReadBugs25 - B/op",
+            "value": 5450831,
+            "unit": "B/op",
+            "extra": "10 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkReadBugs25 - allocs/op",
+            "value": 78566,
+            "unit": "allocs/op",
+            "extra": "10 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkReadBugs150",
+            "value": 2869459247,
+            "unit": "ns/op\t56643984 B/op\t  593369 allocs/op",
+            "extra": "1 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkReadBugs150 - ns/op",
+            "value": 2869459247,
+            "unit": "ns/op",
+            "extra": "1 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkReadBugs150 - B/op",
+            "value": 56643984,
+            "unit": "B/op",
+            "extra": "1 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkReadBugs150 - allocs/op",
+            "value": 593369,
+            "unit": "allocs/op",
+            "extra": "1 times\n4 procs"
           }
         ]
       }
